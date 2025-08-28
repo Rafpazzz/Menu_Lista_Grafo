@@ -4,10 +4,10 @@
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
         <properties>
             <property name="jakarta.persistence.jdbc.url" 
-                      value="jdbc:mysql://localhost:3306/Market?createDatabaseIfNotExist=true&amp;useSSL=false&amp;serverTimezone=UTC&amp;allowPublicKeyRetrieval=true"/>
-            <property name="jakarta.persistence.jdbc.user" value="root"/>
-            <property name="jakarta.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
-            <property name="jakarta.persistence.jdbc.password" value="12345"/>
+                      value="*"/>
+            <property name="jakarta.persistence.jdbc.user" value="*"/>
+            <property name="jakarta.persistence.jdbc.driver" value="*"/>
+            <property name="jakarta.persistence.jdbc.password" value="*"/>
             <property name="hibernate.cache.provider_class" value="org.hibernate.cache.NoCacheProvider"/>
             <property name="jakarta.persistence.schema-generation.database.action" value="create"/>
             
